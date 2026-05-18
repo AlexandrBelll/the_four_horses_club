@@ -683,7 +683,7 @@ td.info-table__name {
     }
 
     .hero {
-        min-height: calc(100vmax - var(--marquee-height));
+        min-height: calc(100svh - var(--marquee-height));
     }
 
     .hero::after {
