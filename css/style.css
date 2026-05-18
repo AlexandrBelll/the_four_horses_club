@@ -182,7 +182,7 @@ svg * {
 .hero {
     position: relative;
     background-color: var(--color-bg-additional);
-    background-image: url(../img/bg-pattern.png);
+    background-image: url(../img/bg-pattern.webp);
     background-blend-mode: color-burn;
     min-height: 700px;
 }
@@ -191,7 +191,7 @@ svg * {
     position: absolute;
     content: '';
     bottom: 0;
-    background-image: url(../img/bg-desktop.png);
+    background-image: url(../img/bg-desktop.webp);
     background-repeat: no-repeat;
     background-position: bottom;
     width: 100%;
@@ -359,7 +359,7 @@ td.info-table__name {
 }
 .stages__wrapper::before {
     position: absolute;
-    content: url(../img/plane.png);
+    content: url(../img/plane.webp);
     bottom: -5px;
     right: -63px;
 }
@@ -379,7 +379,7 @@ td.info-table__name {
 .stages__list-item {
     counter-increment: my-counter;
     background-color: var(--color-bg-additional);
-    background-image: url(../img/bg-pattern.png);
+    background-image: url(../img/bg-pattern.webp);
     background-blend-mode: color-burn;
     padding: 1.25rem;
     display: flex;
@@ -687,7 +687,7 @@ td.info-table__name {
     }
 
     .hero::after {
-        background-image: url(../img/bg-mobile.png);
+        background-image: url(../img/bg-mobile.webp);
         background-size: cover;
         background-position: center 75%;
     }
