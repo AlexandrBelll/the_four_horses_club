@@ -797,3 +797,12 @@ td.info-table__name {
         padding-bottom: 3.75rem;
     }
 }
+@media (width <375px) {
+    .stages__title h2,
+    .participants__title h2 {
+            font-size: 30px;
+    }
+    .stages__wrapper::before {
+        scale: 0.7;
+    }
+}
